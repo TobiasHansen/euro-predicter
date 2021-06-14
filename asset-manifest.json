@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/euro-predicter/static/css/main.49a969e4.chunk.css",
-    "main.js": "/euro-predicter/static/js/main.cad0ba4e.chunk.js",
-    "main.js.map": "/euro-predicter/static/js/main.cad0ba4e.chunk.js.map",
+    "main.js": "/euro-predicter/static/js/main.d365ef4f.chunk.js",
+    "main.js.map": "/euro-predicter/static/js/main.d365ef4f.chunk.js.map",
     "runtime-main.js": "/euro-predicter/static/js/runtime-main.ab76eefa.js",
     "runtime-main.js.map": "/euro-predicter/static/js/runtime-main.ab76eefa.js.map",
     "static/js/2.d7cb04f1.chunk.js": "/euro-predicter/static/js/2.d7cb04f1.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ab76eefa.js",
     "static/js/2.d7cb04f1.chunk.js",
     "static/css/main.49a969e4.chunk.css",
-    "static/js/main.cad0ba4e.chunk.js"
+    "static/js/main.d365ef4f.chunk.js"
   ]
 }
