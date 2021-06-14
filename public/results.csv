@@ -1,0 +1,52 @@
+id,time,type,homeTeam,homeScore,awayScore,awayTeam
+1,11/June 21:00,Group A,Tyrkia,0,3,Italia
+2,12/June 15:00,Group A,Wales,1,1,Sveits
+3,16/June 18:00,Group A,Tyrkia,,,Wales
+4,16/June 21:00,Group A,Italia,,,Sveits
+5,20/June 18:00,Group A,Sveits,,,Tyrkia
+6,20/June 18:00,Group A,Italia,,,Wales
+7,12/June 18:00,Group B,Danmark,0,1,Finland
+8,12/June 21:00,Group B,Belgia,3,0,Russland
+9,16/June 15:00,Group B,Finland,,,Russland
+10,17/June 18:00,Group B,Danmark,,,Belgia
+11,21/June 21:00,Group B,Russland,,,Danmark
+12,21/June 21:00,Group B,Finland,,,Belgia
+13,13/June 18:00,Group C,Østerrike,3,1,Nord-Makedonia
+14,13/June 21:00,Group C,Nederland,3,2,Ukraina
+15,17/June 15:00,Group C,Ukraina,,,Nord-Makedonia
+16,17/June 21:00,Group C,Nederland,,,Østerrike
+17,21/June 18:00,Group C,Nord-Makedonia,,,Nederlant
+18,21/June 18:00,Group C,Ukraina,,,Østerrike
+19,13/June 15:00,Group D,England,1,0,Kroatia
+20,14/June 15:00,Group D,Skottland,,,Tsjekkia
+21,18/June 18:00,Group D,Kroatia,,,Tsjekkia
+22,18/June 21:00,Group D,England,,,Skottland
+23,22/June 21:00,Group D,Kroatia,,,Skottland
+24,22/June 21:00,Group D,Tsjekkia,,,England
+25,14/June 18:00,Group E,Polen,,,Slovakia
+26,14/June 21:00,Group E,Spania,,,Sverige
+27,18/June 15:00,Group E,Sverige,,,Slovakia
+28,19/June 21:00,Group E,Spania,,,Polen
+29,23/June 18:00,Group E,Slovakia,,,Spania
+30,23/June 18:00,Group E,Sverige,,,Polen
+31,15/June 18:00,Group F,Ungarn,,,Portugal
+32,15/June 21:00,Group F,Frankrike,,,Tyskland
+33,19/June 15:00,Group F,Ungarn,,,Frankrike
+34,19/June 18:00,Group F,Portugal,,,Tyskland
+35,23/June 21:00,Group F,Portugal,,,Frankrike
+36,23/June 21:00,Group F,Tyskland,,,Ungarn
+37,26/June 18:00,Round of 16,Tyrkia,,,Danmark
+38,26/June 21:00,Round of 16,Italia,,,Ukraina
+39,27/June 18:00,Round of 16,Nederland,,,Portugal
+40,27/June 21:00,Round of 16,Belgia,,,Slovakia
+41,28/June 18:00,Round of 16,Kroatia,,,Polen
+42,28/June 21:00,Round of 16,Frankrike,,,Sveits
+43,29/June 18:00,Round of 16,England,,,Tyskland
+44,29/June 21:00,Round of 16,Spania,,,Tsjekkia
+45,02/July 18:00,Quater final,Frankrike,,,Polen
+46,02/July 21:00,Quater final,Belgia,,,Ukraina
+47,03/July 18:00,Quater final,Portugal,,,Danmark
+48,03/July 21:00,Quater final,Spania,,,Tyskland
+49,06/July 21:00,Semi final,Belgia,,,Frankrike
+50,07/July 21:00,Semi final,Tyskland,,,Portugal
+51,11/July 21:00,Final,Belgia,,,Tyskland
