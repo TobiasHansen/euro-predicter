@@ -27,7 +27,7 @@ export function GroupTable({group, results, players}: { group: string, results: 
                         })
                     return (
                         <MaterialTable
-                            style={{marginLeft: '230px', width: '310px'}}
+                            style={{width: '310px', marginLeft: '10px'}}
                             columns={[
                                 {title: 'Navn', field: 'name', width: '90px'},
                                 {title: rowData.homeTeam, field: 'homeScore', width: '29px'},
@@ -41,6 +41,7 @@ export function GroupTable({group, results, players}: { group: string, results: 
                                 sorting: false,
                                 toolbar: false,
                                 header: false,
+                                padding: 'dense',
                                 rowStyle: rData => {
                                     const gameNotPlayed = rowData.homeScore.toString() === '';
                                     const correctResult = rowData.homeScore === rData.homeScore && rowData.awayScore === rData.awayScore;

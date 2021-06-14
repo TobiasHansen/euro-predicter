@@ -28,7 +28,7 @@ function App() {
     useEffect(() => {
         const a: Player[] = []
         playerNames.forEach(name => {
-            Papa.parse<Game>(`./${name}.csv`, {
+            Papa.parse<Game>(`${process.env.PUBLIC_URL}/${name}.csv`, {
                 header: true,
                 download: true,
                 skipEmptyLines: true,
@@ -40,8 +40,9 @@ function App() {
                 }
             });
         })
+        console.log(a);
         setPlayers(a)
-        Papa.parse<Game>(`./results.csv`, {
+        Papa.parse<Game>(`${process.env.PUBLIC_URL}/results.csv`, {
             header: true,
             download: true,
             skipEmptyLines: true,
@@ -54,7 +55,7 @@ function App() {
     return (
         <div style={{display: 'flex', flexWrap: 'wrap'}}>
             {players.length > 0 && results.length > 0 && (
-                groups.map(group => <GroupTable group={group} results={results} players={players}/>)
+                groups.map(group => <GroupTable key={group} group={group} results={results} players={players}/>)
             )}
         </div>
     );
