@@ -54,10 +54,10 @@ function App() {
 
     return (
         <>
-            <div style={{display: 'flex', flexWrap: 'wrap'}}>
+            <div style={{width: '100%', display: 'flex', flexWrap: 'wrap'}}>
                 <StandingsTable results={results} players={players}/>
             </div>
-            <div style={{display: 'flex', flexWrap: 'wrap'}}>
+            <div style={{width: '100%', display: 'flex', flexWrap: 'wrap'}}>
                 {players.length > 0 && results.length > 0 && (
                     groups.map(group => <GroupTable key={group} group={group} results={results} players={players}/>)
                 )}

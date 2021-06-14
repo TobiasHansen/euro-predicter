@@ -33,14 +33,14 @@ export function StandingsTable({results, players}: { results: Game[], players: P
         }
     })
     return (
-        <Paper style={{width: '700px', margin: '5px'}} elevation={3}>
+        <Paper style={{maxWidth: '700px', margin: '5px'}} elevation={3}>
             <MaterialTable
                 columns={[
-                    {title: 'Navn', field: 'name', width: '100px'},
-                    {title: 'Riktig resultat', field: 'score', width: '100px'},
-                    {title: 'Riktig vinner', field: 'winner', width: '100px'},
-                    {title: 'Bom', field: 'wrong', width: '100px'},
-                    {title: 'Peong', field: 'points', width: '100px'},
+                    {title: 'Navn', field: 'name', width: '70px'},
+                    {title: 'Riktig resultat', field: 'score', width: '70px'},
+                    {title: 'Riktig vinner', field: 'winner', width: '70px'},
+                    {title: 'Bom', field: 'wrong', width: '70px'},
+                    {title: 'Peong', field: 'points', width: '70px'},
                 ]}
                 data={playerScores.sort((a, b) => a.points > b.points ? -1 : a.points === b.points ? 0 : 1)}
                 title="Sammenlagt"

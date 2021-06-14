@@ -7,7 +7,7 @@ import {correctResult, correctWinner} from "./utils";
 export function GroupTable({group, results, players}: { group: string, results: Game[], players: Player[] }) {
     const gamesInGroup = results.filter(game => game.type === group);
     return (
-        <Paper style={{width: '700px', margin: '5px'}} elevation={3}>
+        <Paper style={{maxWidth: '700px', margin: '5px'}} elevation={3}>
             <MaterialTable
                 columns={[
                     {title: 'Tid', field: 'time', width: '60px'},
