@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import './App.css';
 import Papa from 'papaparse';
 import {GroupTable} from "./GroupTable";
+import {StandingsTable} from "./StandingsTable";
 
 const playerNames: string[] = ["yngve", "tobias", "wilberg", "ra"];
 const groups: string[] = ["Group A", "Group B", "Group C", "Group D", "Group E", "Group F"]
@@ -52,11 +53,16 @@ function App() {
     }, [])
 
     return (
-        <div style={{display: 'flex', flexWrap: 'wrap'}}>
-            {players.length > 0 && results.length > 0 && (
-                groups.map(group => <GroupTable key={group} group={group} results={results} players={players}/>)
-            )}
-        </div>
+        <>
+            <div style={{display: 'flex', flexWrap: 'wrap'}}>
+                <StandingsTable results={results} players={players}/>
+            </div>
+            <div style={{display: 'flex', flexWrap: 'wrap'}}>
+                {players.length > 0 && results.length > 0 && (
+                    groups.map(group => <GroupTable key={group} group={group} results={results} players={players}/>)
+                )}
+            </div>
+        </>
     );
 }
 
