@@ -40,7 +40,6 @@ function App() {
                 }
             });
         })
-        console.log(a);
         setPlayers(a)
         Papa.parse<Game>(`${process.env.PUBLIC_URL}/results.csv`, {
             header: true,
