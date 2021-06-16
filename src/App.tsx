@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
 import Papa from 'papaparse';
-import {GroupTable} from "./GroupTable";
-import {StandingsTable} from "./StandingsTable";
+import {GroupTable} from "./views/GroupTable";
+import {StandingsTable} from "./views/StandingsTable";
 
 const playerNames: string[] = ["yngve", "tobias", "wilberg", "ra"];
 const groups: string[] = ["Group A", "Group B", "Group C", "Group D", "Group E", "Group F"]
@@ -27,29 +27,33 @@ function App() {
     const [results, setResults] = useState<Game[]>([])
 
     useEffect(() => {
-        const a: Player[] = []
-        playerNames.forEach(name => {
-            Papa.parse<Game>(`${process.env.PUBLIC_URL}/${name}.csv`, {
+        async function getPlayerPredictions() {
+            const players: Player[] = []
+            for (const name of playerNames) {
+                await Papa.parse<Game>(`${process.env.PUBLIC_URL}/${name}.csv`, {
+                    header: true,
+                    download: true,
+                    skipEmptyLines: true,
+                    complete: data => {
+                        players.push({
+                            name,
+                            predictions: data.data.sort((a, b) => a.time > b.time ? -1 : a.time === b.time ? 0 : 1)
+                        })
+                    }
+                });
+            }
+            setPlayers(players)
+            Papa.parse<Game>(`${process.env.PUBLIC_URL}/results.csv`, {
                 header: true,
                 download: true,
                 skipEmptyLines: true,
                 complete: data => {
-                    a.push({
-                        name,
-                        predictions: data.data.sort((a, b) => a.time > b.time ? -1 : a.time === b.time ? 0 : 1)
-                    })
+                    setResults(data.data)
                 }
             });
-        })
-        setPlayers(a)
-        Papa.parse<Game>(`${process.env.PUBLIC_URL}/results.csv`, {
-            header: true,
-            download: true,
-            skipEmptyLines: true,
-            complete: data => {
-                setResults(data.data)
-            }
-        });
+        }
+
+        getPlayerPredictions();
     }, [])
 
     return (

@@ -1,8 +1,8 @@
 import React from "react";
 import {Paper} from "@material-ui/core";
 import MaterialTable from "@material-table/core";
-import {Game, Player} from "./App";
-import {correctResult, correctWinner} from "./utils";
+import {Game, Player} from "../App";
+import {correctResult, correctWinner} from "../utils";
 
 export function GroupTable({group, results, players}: { group: string, results: Game[], players: Player[] }) {
     const gamesInGroup = results.filter(game => game.type === group);
