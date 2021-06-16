@@ -17,7 +17,7 @@ export function GroupTable({group, results, players}: { group: string, results: 
                     {title: 'Bortelag', field: 'awayTeam', width: '75px'},
                 ]}
                 detailPanel={rowData => {
-                    const predictions: { homeScore: number; awayScore: number; name: string }[] =
+                    const predictions: { homeScore: number | "-"; awayScore: number | "-"; name: string }[] =
                         players.map(p => {
                             const game = p.predictions.find(game => game.id === rowData.id)!!;
                             return {
@@ -44,7 +44,7 @@ export function GroupTable({group, results, players}: { group: string, results: 
                                 header: false,
                                 padding: 'dense',
                                 rowStyle: rData => {
-                                    const gameNotPlayed = rowData.homeScore.toString() === '';
+                                    const gameNotPlayed = rowData.homeScore === '-';
                                     return {
                                         backgroundColor: gameNotPlayed ? '' : correctResult(rowData, rData) ? 'green' : correctWinner(rowData, rData) ? 'orange' : 'red'
                                     }

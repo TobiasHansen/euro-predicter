@@ -5,7 +5,7 @@ import {Game, Player} from "../App";
 import {correctResult, correctWinner} from "../utils";
 
 export function StandingsTable({results, players}: { results: Game[], players: Player[] }) {
-    const finishedGames = results.filter(res => res.awayScore.toString() !== '');
+    const finishedGames = results.filter(res => res.awayScore !== '-');
     const playerScores = players.map(player => {
         let score = 0;
         let winner = 0;
