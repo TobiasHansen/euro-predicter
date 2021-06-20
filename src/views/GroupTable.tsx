@@ -3,6 +3,7 @@ import {Paper} from "@material-ui/core";
 import MaterialTable from "@material-table/core";
 import {Game, Player} from "../App";
 import {correctResult, correctWinner} from "../utils";
+import {format} from 'date-fns';
 
 export function GroupTable({group, results, players}: { group: string, results: Game[], players: Player[] }) {
     const gamesInGroup = results.filter(game => game.type === group);
@@ -10,7 +11,7 @@ export function GroupTable({group, results, players}: { group: string, results: 
         <Paper style={{maxWidth: '700px', margin: '5px'}} elevation={3}>
             <MaterialTable
                 columns={[
-                    {title: 'Tid', field: 'time', width: '60px'},
+                    {title: 'Tid', field: 'time', width: '60px', render: (value): string => format(value.time, "dd-MM-yyyy")},
                     {title: 'Hjemmelag', field: 'homeTeam', width: '75px'},
                     {title: '', field: 'homeScore', width: '30px'},
                     {title: '', field: 'awayScore', width: '30px'},

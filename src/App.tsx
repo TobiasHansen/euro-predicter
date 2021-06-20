@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import {GroupTable} from "./views/GroupTable";
 import {StandingsTable} from "./views/StandingsTable";
@@ -7,12 +7,17 @@ import {yngvePredictions} from "./data/yngve";
 import {tobiasPredictions} from "./data/tobias";
 import {wilbergPredictions} from "./data/wilberg";
 import {results} from "./data/results";
+import {FormControl, FormControlLabel, Radio, RadioGroup} from "@material-ui/core";
+import {ScheduleTable} from "./views/ScheduleTable";
+
+type View = "Group Matches" | "Schedule"
 
 const groups: string[] = ["Group A", "Group B", "Group C", "Group D", "Group E", "Group F"]
+const views: View[] = ["Group Matches", "Schedule"]
 
 export interface Game {
     id: number,
-    time: string,
+    time: Date,
     type: string,
     homeTeam: string,
     homeScore: number | "-",
@@ -25,21 +30,41 @@ export interface Player {
     predictions: Game[]
 }
 
-function App() {
+export function App() {
+    const [view, setView] = useState("Group Matches");
     const players = [raPredictions, yngvePredictions, tobiasPredictions, wilbergPredictions];
 
+    const handleViewChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setView((event.target as HTMLInputElement).value);
+    };
     return (
         <>
             <div style={{width: '100%', display: 'flex', flexWrap: 'wrap'}}>
                 <StandingsTable results={results} players={players}/>
             </div>
-            <div style={{width: '100%', display: 'flex', flexWrap: 'wrap'}}>
-                {players.length > 0 && results.length > 0 && (
-                    groups.map(group => <GroupTable key={group} group={group} results={results} players={players}/>)
-                )}
-            </div>
+
+            <FormControl component="fieldset">
+                <RadioGroup row value={view} onChange={handleViewChange}>
+                    {views.map(view =>
+                        <FormControlLabel
+                            key={view}
+                            value={view}
+                            control={<Radio color="primary"/>}
+                            label={view}
+                            labelPlacement="top"
+                        />
+                    )}
+                </RadioGroup>
+            </FormControl>
+
+
+            {players?.length > 0 && (
+                <div style={{width: '100%', display: 'flex', flexWrap: 'wrap'}}>
+                    {view === "Group Matches" ?
+                        groups.map(group => <GroupTable key={group} group={group} results={results} players={players}/>)
+                        : <ScheduleTable results={results} players={players}/>}
+                </div>
+            )}
         </>
     );
 }
-
-export default App;

@@ -4,7 +4,7 @@ export const raPredictions: Player = {
     "name": "ra",
     "predictions": [{
         "id": 44,
-        "time": "29/June 21:00",
+        "time": "2021-06-29T19:00:00.000Z",
         "type": "Round of 16",
         "homeTeam": "Spania",
         "homeScore": 1,
@@ -12,7 +12,7 @@ export const raPredictions: Player = {
         "awayTeam": "Tsjekkia"
     }, {
         "id": 43,
-        "time": "29/June 18:00",
+        "time": "2021-06-29T16:00:00.000Z",
         "type": "Round of 16",
         "homeTeam": "England",
         "homeScore": 1,
@@ -20,7 +20,7 @@ export const raPredictions: Player = {
         "awayTeam": "Frankrike"
     }, {
         "id": 42,
-        "time": "28/June 21:00",
+        "time": "2021-06-28T19:00:00.000Z",
         "type": "Round of 16",
         "homeTeam": "Portugal",
         "homeScore": 1,
@@ -28,7 +28,7 @@ export const raPredictions: Player = {
         "awayTeam": "Ukraina"
     }, {
         "id": 41,
-        "time": "28/June 18:00",
+        "time": "2021-06-28T16:00:00.000Z",
         "type": "Round of 16",
         "homeTeam": "Kroatia",
         "homeScore": 0,
@@ -36,7 +36,7 @@ export const raPredictions: Player = {
         "awayTeam": "Polen"
     }, {
         "id": 40,
-        "time": "27/June 21:00",
+        "time": "2021-06-27T19:00:00.000Z",
         "type": "Round of 16",
         "homeTeam": "Belgia",
         "homeScore": 1,
@@ -44,7 +44,7 @@ export const raPredictions: Player = {
         "awayTeam": "Tyskland"
     }, {
         "id": 39,
-        "time": "27/June 18:00",
+        "time": "2021-06-27T16:00:00.000Z",
         "type": "Round of 16",
         "homeTeam": "Nederland",
         "homeScore": 1,
@@ -52,7 +52,7 @@ export const raPredictions: Player = {
         "awayTeam": "Sverige"
     }, {
         "id": 38,
-        "time": "26/June 21:00",
+        "time": "2021-06-26T19:00:00.000Z",
         "type": "Round of 16",
         "homeTeam": "Italia",
         "homeScore": 1,
@@ -60,7 +60,7 @@ export const raPredictions: Player = {
         "awayTeam": "Østerrike"
     }, {
         "id": 37,
-        "time": "26/June 18:00",
+        "time": "2021-06-26T16:00:00.000Z",
         "type": "Round of 16",
         "homeTeam": "Tyrkia",
         "homeScore": 0,
@@ -68,7 +68,7 @@ export const raPredictions: Player = {
         "awayTeam": "Danmark"
     }, {
         "id": 35,
-        "time": "23/June 21:00",
+        "time": "2021-06-23T19:00:00.000Z",
         "type": "Group F",
         "homeTeam": "Portugal",
         "homeScore": 2,
@@ -76,7 +76,7 @@ export const raPredictions: Player = {
         "awayTeam": "Frankrike"
     }, {
         "id": 36,
-        "time": "23/June 21:00",
+        "time": "2021-06-23T19:00:00.000Z",
         "type": "Group F",
         "homeTeam": "Tyskland",
         "homeScore": 2,
@@ -84,7 +84,7 @@ export const raPredictions: Player = {
         "awayTeam": "Ungarn"
     }, {
         "id": 29,
-        "time": "23/June 18:00",
+        "time": "2021-06-23T16:00:00.000Z",
         "type": "Group E",
         "homeTeam": "Slovakia",
         "homeScore": 0,
@@ -92,7 +92,7 @@ export const raPredictions: Player = {
         "awayTeam": "Spania"
     }, {
         "id": 30,
-        "time": "23/June 18:00",
+        "time": "2021-06-23T16:00:00.000Z",
         "type": "Group E",
         "homeTeam": "Sverige",
         "homeScore": 0,
@@ -100,7 +100,7 @@ export const raPredictions: Player = {
         "awayTeam": "Polen"
     }, {
         "id": 23,
-        "time": "22/June 21:00",
+        "time": "2021-06-22T19:00:00.000Z",
         "type": "Group D",
         "homeTeam": "Kroatia",
         "homeScore": 2,
@@ -108,7 +108,7 @@ export const raPredictions: Player = {
         "awayTeam": "Skottland"
     }, {
         "id": 24,
-        "time": "22/June 21:00",
+        "time": "2021-06-22T19:00:00.000Z",
         "type": "Group D",
         "homeTeam": "Tsjekkia",
         "homeScore": 1,
@@ -116,7 +116,7 @@ export const raPredictions: Player = {
         "awayTeam": "England"
     }, {
         "id": 11,
-        "time": "21/June 21:00",
+        "time": "2021-06-21T19:00:00.000Z",
         "type": "Group B",
         "homeTeam": "Russland",
         "homeScore": 1,
@@ -124,7 +124,7 @@ export const raPredictions: Player = {
         "awayTeam": "Danmark"
     }, {
         "id": 12,
-        "time": "21/June 21:00",
+        "time": "2021-06-21T19:00:00.000Z",
         "type": "Group B",
         "homeTeam": "Finland",
         "homeScore": 0,
@@ -132,7 +132,7 @@ export const raPredictions: Player = {
         "awayTeam": "Belgia"
     }, {
         "id": 17,
-        "time": "21/June 18:00",
+        "time": "2021-06-21T16:00:00.000Z",
         "type": "Group C",
         "homeTeam": "Nord-Makedonia",
         "homeScore": 1,
@@ -140,7 +140,7 @@ export const raPredictions: Player = {
         "awayTeam": "Nederland"
     }, {
         "id": 18,
-        "time": "21/June 18:00",
+        "time": "2021-06-21T16:00:00.000Z",
         "type": "Group C",
         "homeTeam": "Ukraina",
         "homeScore": 1,
@@ -148,7 +148,7 @@ export const raPredictions: Player = {
         "awayTeam": "Østerrike"
     }, {
         "id": 5,
-        "time": "20/June 18:00",
+        "time": "2021-06-20T16:00:00.000Z",
         "type": "Group A",
         "homeTeam": "Sveits",
         "homeScore": 1,
@@ -156,7 +156,7 @@ export const raPredictions: Player = {
         "awayTeam": "Tyrkia"
     }, {
         "id": 6,
-        "time": "20/June 18:00",
+        "time": "2021-06-20T16:00:00.000Z",
         "type": "Group A",
         "homeTeam": "Italia",
         "homeScore": 2,
@@ -164,7 +164,7 @@ export const raPredictions: Player = {
         "awayTeam": "Wales"
     }, {
         "id": 28,
-        "time": "19/June 21:00",
+        "time": "2021-06-19T19:00:00.000Z",
         "type": "Group E",
         "homeTeam": "Spania",
         "homeScore": 2,
@@ -172,7 +172,7 @@ export const raPredictions: Player = {
         "awayTeam": "Polen"
     }, {
         "id": 34,
-        "time": "19/June 18:00",
+        "time": "2021-06-19T16:00:00.000Z",
         "type": "Group F",
         "homeTeam": "Portugal",
         "homeScore": 2,
@@ -180,7 +180,7 @@ export const raPredictions: Player = {
         "awayTeam": "Tyskland"
     }, {
         "id": 33,
-        "time": "19/June 15:00",
+        "time": "2021-06-19T13:00:00.000Z",
         "type": "Group F",
         "homeTeam": "Ungarn",
         "homeScore": 1,
@@ -188,7 +188,7 @@ export const raPredictions: Player = {
         "awayTeam": "Frankrike"
     }, {
         "id": 22,
-        "time": "18/June 21:00",
+        "time": "2021-06-18T19:00:00.000Z",
         "type": "Group D",
         "homeTeam": "England",
         "homeScore": 2,
@@ -196,7 +196,7 @@ export const raPredictions: Player = {
         "awayTeam": "Skottland"
     }, {
         "id": 21,
-        "time": "18/June 18:00",
+        "time": "2021-06-18T16:00:00.000Z",
         "type": "Group D",
         "homeTeam": "Kroatia",
         "homeScore": 2,
@@ -204,7 +204,7 @@ export const raPredictions: Player = {
         "awayTeam": "Tsjekkia"
     }, {
         "id": 27,
-        "time": "18/June 15:00",
+        "time": "2021-06-18T13:00:00.000Z",
         "type": "Group E",
         "homeTeam": "Sverige",
         "homeScore": 1,
@@ -212,7 +212,7 @@ export const raPredictions: Player = {
         "awayTeam": "Slovakia"
     }, {
         "id": 16,
-        "time": "17/June 21:00",
+        "time": "2021-06-17T19:00:00.000Z",
         "type": "Group C",
         "homeTeam": "Nederland",
         "homeScore": 2,
@@ -220,7 +220,7 @@ export const raPredictions: Player = {
         "awayTeam": "Østerrike"
     }, {
         "id": 10,
-        "time": "17/June 18:00",
+        "time": "2021-06-17T16:00:00.000Z",
         "type": "Group B",
         "homeTeam": "Danmark",
         "homeScore": 1,
@@ -228,7 +228,7 @@ export const raPredictions: Player = {
         "awayTeam": "Belgia"
     }, {
         "id": 15,
-        "time": "17/June 15:00",
+        "time": "2021-06-17T13:00:00.000Z",
         "type": "Group C",
         "homeTeam": "Ukraina",
         "homeScore": 2,
@@ -236,7 +236,7 @@ export const raPredictions: Player = {
         "awayTeam": "Nord-Makedonia"
     }, {
         "id": 4,
-        "time": "16/June 21:00",
+        "time": "2021-06-16T19:00:00.000Z",
         "type": "Group A",
         "homeTeam": "Italia",
         "homeScore": 1,
@@ -244,7 +244,7 @@ export const raPredictions: Player = {
         "awayTeam": "Sveits"
     }, {
         "id": 3,
-        "time": "16/June 18:00",
+        "time": "2021-06-16T16:00:00.000Z",
         "type": "Group A",
         "homeTeam": "Tyrkia",
         "homeScore": 2,
@@ -252,7 +252,7 @@ export const raPredictions: Player = {
         "awayTeam": "Wales"
     }, {
         "id": 9,
-        "time": "16/June 15:00",
+        "time": "2021-06-16T13:00:00.000Z",
         "type": "Group B",
         "homeTeam": "Finland",
         "homeScore": 0,
@@ -260,7 +260,7 @@ export const raPredictions: Player = {
         "awayTeam": "Russland"
     }, {
         "id": 32,
-        "time": "15/June 21:00",
+        "time": "2021-06-15T19:00:00.000Z",
         "type": "Group F",
         "homeTeam": "Frankrike",
         "homeScore": 2,
@@ -268,7 +268,7 @@ export const raPredictions: Player = {
         "awayTeam": "Tyskland"
     }, {
         "id": 31,
-        "time": "15/June 18:00",
+        "time": "2021-06-15T16:00:00.000Z",
         "type": "Group F",
         "homeTeam": "Ungarn",
         "homeScore": 0,
@@ -276,7 +276,7 @@ export const raPredictions: Player = {
         "awayTeam": "Portugal"
     }, {
         "id": 26,
-        "time": "14/June 21:00",
+        "time": "2021-06-14T19:00:00.000Z",
         "type": "Group E",
         "homeTeam": "Spania",
         "homeScore": 2,
@@ -284,7 +284,7 @@ export const raPredictions: Player = {
         "awayTeam": "Sverige"
     }, {
         "id": 25,
-        "time": "14/June 18:00",
+        "time": "2021-06-14T16:00:00.000Z",
         "type": "Group E",
         "homeTeam": "Polen",
         "homeScore": 2,
@@ -292,7 +292,7 @@ export const raPredictions: Player = {
         "awayTeam": "Slovakia"
     }, {
         "id": 20,
-        "time": "14/June 15:00",
+        "time": "2021-06-14T13:00:00.000Z",
         "type": "Group D",
         "homeTeam": "Skottland",
         "homeScore": 0,
@@ -300,7 +300,7 @@ export const raPredictions: Player = {
         "awayTeam": "Tsjekkia"
     }, {
         "id": 14,
-        "time": "13/June 21:00",
+        "time": "2021-06-13T19:00:00.000Z",
         "type": "Group C",
         "homeTeam": "Nederland",
         "homeScore": 2,
@@ -308,7 +308,7 @@ export const raPredictions: Player = {
         "awayTeam": "Ukraina"
     }, {
         "id": 13,
-        "time": "13/June 18:00",
+        "time": "2021-06-13T16:00:00.000Z",
         "type": "Group C",
         "homeTeam": "Østerrike",
         "homeScore": 2,
@@ -316,7 +316,7 @@ export const raPredictions: Player = {
         "awayTeam": "Nord-Makedonia"
     }, {
         "id": 19,
-        "time": "13/June 15:00",
+        "time": "2021-06-13T13:00:00.000Z",
         "type": "Group D",
         "homeTeam": "England",
         "homeScore": 2,
@@ -324,7 +324,7 @@ export const raPredictions: Player = {
         "awayTeam": "Kroatia"
     }, {
         "id": 8,
-        "time": "12/June 21:00",
+        "time": "2021-06-12T19:00:00.000Z",
         "type": "Group B",
         "homeTeam": "Belgia",
         "homeScore": 3,
@@ -332,7 +332,7 @@ export const raPredictions: Player = {
         "awayTeam": "Russland"
     }, {
         "id": 7,
-        "time": "12/June 18:00",
+        "time": "2021-06-12T16:00:00.000Z",
         "type": "Group B",
         "homeTeam": "Danmark",
         "homeScore": 2,
@@ -340,7 +340,7 @@ export const raPredictions: Player = {
         "awayTeam": "Finland"
     }, {
         "id": 2,
-        "time": "12/June 15:00",
+        "time": "2021-06-12T13:00:00.000Z",
         "type": "Group A",
         "homeTeam": "Wales",
         "homeScore": 1,
@@ -348,7 +348,7 @@ export const raPredictions: Player = {
         "awayTeam": "Sveits"
     }, {
         "id": 1,
-        "time": "11/June 21:00",
+        "time": "2021-06-11T19:00:00.000Z",
         "type": "Group A",
         "homeTeam": "Tyrkia",
         "homeScore": 1,
@@ -356,7 +356,7 @@ export const raPredictions: Player = {
         "awayTeam": "Italia"
     }, {
         "id": 51,
-        "time": "11/July 21:00",
+        "time": "2021-07-11T19:00:00.000Z",
         "type": "Final",
         "homeTeam": "Portugal",
         "homeScore": 0,
@@ -364,7 +364,7 @@ export const raPredictions: Player = {
         "awayTeam": "England"
     }, {
         "id": 50,
-        "time": "07/July 21:00",
+        "time": "2021-07-07T19:00:00.000Z",
         "type": "Semi final",
         "homeTeam": "England",
         "homeScore": 1,
@@ -372,7 +372,7 @@ export const raPredictions: Player = {
         "awayTeam": "Danmark"
     }, {
         "id": 49,
-        "time": "06/July 21:00",
+        "time": "2021-07-06T19:00:00.000Z",
         "type": "Semi final",
         "homeTeam": "Belgia",
         "homeScore": 0,
@@ -380,7 +380,7 @@ export const raPredictions: Player = {
         "awayTeam": "Portugal"
     }, {
         "id": 48,
-        "time": "03/July 21:00",
+        "time": "2021-07-03T19:00:00.000Z",
         "type": "Quater final",
         "homeTeam": "Spania",
         "homeScore": 0,
@@ -388,7 +388,7 @@ export const raPredictions: Player = {
         "awayTeam": "England"
     }, {
         "id": 47,
-        "time": "03/July 18:00",
+        "time": "2021-07-03T16:00:00.000Z",
         "type": "Quater final",
         "homeTeam": "Nederland",
         "homeScore": 0,
@@ -396,7 +396,7 @@ export const raPredictions: Player = {
         "awayTeam": "Danmark"
     }, {
         "id": 46,
-        "time": "02/July 21:00",
+        "time": "2021-07-02T19:00:00.000Z",
         "type": "Quater final",
         "homeTeam": "Belgia",
         "homeScore": 1,
@@ -404,11 +404,11 @@ export const raPredictions: Player = {
         "awayTeam": "Italia"
     }, {
         "id": 45,
-        "time": "02/July 18:00",
+        "time": "2021-07-02T16:00:00.000Z",
         "type": "Quater final",
         "homeTeam": "Portugal",
         "homeScore": 1,
         "awayScore": 0,
         "awayTeam": "Polen"
-    }]
+    }].map(game => ({...game, time: new Date(game.time)}))
 }
