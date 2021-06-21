@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import {GroupTable} from "./views/GroupTable";
+import {GroupMatches} from "./views/GroupMatches";
 import {StandingsTable} from "./views/StandingsTable";
 import {raPredictions} from "./data/ra";
 import {yngvePredictions} from "./data/yngve";
@@ -9,6 +9,7 @@ import {wilbergPredictions} from "./data/wilberg";
 import {results} from "./data/results";
 import {FormControl, FormControlLabel, Radio, RadioGroup} from "@material-ui/core";
 import {ScheduleTable} from "./views/ScheduleTable";
+import {GroupStandings} from "./views/GroupStanding";
 
 type View = "Group Matches" | "Schedule"
 
@@ -61,7 +62,7 @@ export function App() {
             {players?.length > 0 && (
                 <div style={{width: '100%', display: 'flex', flexWrap: 'wrap'}}>
                     {view === "Group Matches" ?
-                        groups.map(group => <GroupTable key={group} group={group} results={results} players={players}/>)
+                        groups.map(group => <GroupStandings key={group} group={group} results={results} players={players}/>)
                         : <ScheduleTable results={results} players={players}/>}
                 </div>
             )}

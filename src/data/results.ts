@@ -135,7 +135,7 @@ export const results: Game[] = [{
     "homeTeam": "Nord-Makedonia",
     "homeScore": "-",
     "awayScore": "-",
-    "awayTeam": "Nederlant"
+    "awayTeam": "Nederland"
 }, {
     "id": 18,
     "time": "2021-06-21T16:00:00.000Z",

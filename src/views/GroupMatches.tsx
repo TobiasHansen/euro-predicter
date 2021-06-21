@@ -5,7 +5,7 @@ import {Game, Player} from "../App";
 import {correctResult, correctWinner} from "../utils";
 import {format} from 'date-fns';
 
-export function GroupTable({group, results, players}: { group: string, results: Game[], players: Player[] }) {
+export function GroupMatches({group, results, players}: { group: string, results: Game[], players: Player[] }) {
     const gamesInGroup = results.filter(game => game.type === group);
     return (
         <Paper style={{maxWidth: '700px', margin: '5px'}} elevation={3}>
