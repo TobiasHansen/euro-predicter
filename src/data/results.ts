@@ -229,16 +229,16 @@ export const results: Game[] = [{
     "time": "2021-06-23T16:00:00.000Z",
     "type": "Group E",
     "homeTeam": "Slovakia",
-    "homeScore": "-",
-    "awayScore": "-",
+    "homeScore": 0,
+    "awayScore": 5,
     "awayTeam": "Spania"
 }, {
     "id": 30,
     "time": "2021-06-23T16:00:00.000Z",
     "type": "Group E",
     "homeTeam": "Sverige",
-    "homeScore": "-",
-    "awayScore": "-",
+    "homeScore": 3,
+    "awayScore": 2,
     "awayTeam": "Polen"
 }, {
     "id": 31,
@@ -277,22 +277,22 @@ export const results: Game[] = [{
     "time": "2021-06-23T19:00:00.000Z",
     "type": "Group F",
     "homeTeam": "Portugal",
-    "homeScore": "-",
-    "awayScore": "-",
+    "homeScore": 2,
+    "awayScore": 2,
     "awayTeam": "Frankrike"
 }, {
     "id": 36,
     "time": "2021-06-23T19:00:00.000Z",
     "type": "Group F",
     "homeTeam": "Tyskland",
-    "homeScore": "-",
-    "awayScore": "-",
+    "homeScore": 2,
+    "awayScore": 2,
     "awayTeam": "Ungarn"
 }, {
     "id": 37,
     "time": "2021-06-26T16:00:00.000Z",
     "type": "Round of 16",
-    "homeTeam": "Tyrkia",
+    "homeTeam": "Wales",
     "homeScore": "-",
     "awayScore": "-",
     "awayTeam": "Danmark"
@@ -303,7 +303,7 @@ export const results: Game[] = [{
     "homeTeam": "Italia",
     "homeScore": "-",
     "awayScore": "-",
-    "awayTeam": "Ukraina"
+    "awayTeam": "Østerrike"
 }, {
     "id": 39,
     "time": "2021-06-27T16:00:00.000Z",
@@ -311,7 +311,7 @@ export const results: Game[] = [{
     "homeTeam": "Nederland",
     "homeScore": "-",
     "awayScore": "-",
-    "awayTeam": "Portugal"
+    "awayTeam": "Tsjekkia"
 }, {
     "id": 40,
     "time": "2021-06-27T19:00:00.000Z",
@@ -319,7 +319,7 @@ export const results: Game[] = [{
     "homeTeam": "Belgia",
     "homeScore": "-",
     "awayScore": "-",
-    "awayTeam": "Slovakia"
+    "awayTeam": "Portugal"
 }, {
     "id": 41,
     "time": "2021-06-28T16:00:00.000Z",
@@ -327,7 +327,7 @@ export const results: Game[] = [{
     "homeTeam": "Kroatia",
     "homeScore": "-",
     "awayScore": "-",
-    "awayTeam": "Polen"
+    "awayTeam": "Spania"
 }, {
     "id": 42,
     "time": "2021-06-28T19:00:00.000Z",
@@ -348,64 +348,64 @@ export const results: Game[] = [{
     "id": 44,
     "time": "2021-06-29T19:00:00.000Z",
     "type": "Round of 16",
-    "homeTeam": "Spania",
-    "homeScore": "-",
-    "awayScore": "-",
-    "awayTeam": "Tsjekkia"
-}, {
-    "id": 45,
-    "time": "2021-07-02T16:00:00.000Z",
-    "type": "Quater final",
-    "homeTeam": "Frankrike",
-    "homeScore": "-",
-    "awayScore": "-",
-    "awayTeam": "Polen"
-}, {
-    "id": 46,
-    "time": "2021-07-02T19:00:00.000Z",
-    "type": "Quater final",
-    "homeTeam": "Belgia",
+    "homeTeam": "Sverige",
     "homeScore": "-",
     "awayScore": "-",
     "awayTeam": "Ukraina"
 }, {
-    "id": 47,
-    "time": "2021-07-03T16:00:00.000Z",
-    "type": "Quater final",
-    "homeTeam": "Portugal",
+    "id": 45,
+    "time": "2021-07-02T16:00:00.000Z",
+    "type": "Quarter final",
+    "homeTeam": "",
     "homeScore": "-",
     "awayScore": "-",
-    "awayTeam": "Danmark"
+    "awayTeam": ""
+}, {
+    "id": 46,
+    "time": "2021-07-02T19:00:00.000Z",
+    "type": "Quarter final",
+    "homeTeam": "",
+    "homeScore": "-",
+    "awayScore": "-",
+    "awayTeam": ""
+}, {
+    "id": 47,
+    "time": "2021-07-03T16:00:00.000Z",
+    "type": "Quarter final",
+    "homeTeam": "",
+    "homeScore": "-",
+    "awayScore": "-",
+    "awayTeam": ""
 }, {
     "id": 48,
     "time": "2021-07-03T19:00:00.000Z",
-    "type": "Quater final",
-    "homeTeam": "Spania",
+    "type": "Quarter final",
+    "homeTeam": "",
     "homeScore": "-",
     "awayScore": "-",
-    "awayTeam": "Tyskland"
+    "awayTeam": ""
 }, {
     "id": 49,
     "time": "2021-07-06T19:00:00.000Z",
     "type": "Semi final",
-    "homeTeam": "Belgia",
+    "homeTeam": "",
     "homeScore": "-",
     "awayScore": "-",
-    "awayTeam": "Frankrike"
+    "awayTeam": ""
 }, {
     "id": 50,
     "time": "2021-07-07T19:00:00.000Z",
     "type": "Semi final",
-    "homeTeam": "Tyskland",
+    "homeTeam": "",
     "homeScore": "-",
     "awayScore": "-",
-    "awayTeam": "Portugal"
+    "awayTeam": ""
 }, {
     "id": 51,
     "time": "2021-07-11T19:00:00.000Z",
     "type": "Final",
-    "homeTeam": "Belgia",
+    "homeTeam": "",
     "homeScore": "-",
     "awayScore": "-",
-    "awayTeam": "Tyskland"
+    "awayTeam": ""
 }].map(r => ({...r, time: new Date(r.time)}) as Game);

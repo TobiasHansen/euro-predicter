@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import './App.css';
-import {GroupMatches} from "./views/GroupMatches";
 import {StandingsTable} from "./views/StandingsTable";
 import {raPredictions} from "./data/ra";
 import {yngvePredictions} from "./data/yngve";
@@ -9,12 +8,13 @@ import {wilbergPredictions} from "./data/wilberg";
 import {results} from "./data/results";
 import {FormControl, FormControlLabel, Radio, RadioGroup} from "@material-ui/core";
 import {ScheduleTable} from "./views/ScheduleTable";
-import {GroupStandings} from "./views/GroupStanding";
+import {GroupMatches} from "./views/GroupMatches";
+import {PlayoffMatches} from "./views/PlayoffMatches";
 
-type View = "Group Matches" | "Schedule"
+type View = "Group Matches" | "Schedule" | "Playoffs"
 
 const groups: string[] = ["Group A", "Group B", "Group C", "Group D", "Group E", "Group F"]
-const views: View[] = ["Group Matches", "Schedule"]
+const views: View[] = ["Group Matches", "Schedule", "Playoffs"]
 
 export interface Game {
     id: number,
@@ -32,7 +32,7 @@ export interface Player {
 }
 
 export function App() {
-    const [view, setView] = useState("Group Matches");
+    const [view, setView] = useState("Playoffs");
     const players = [raPredictions, yngvePredictions, tobiasPredictions, wilbergPredictions];
 
     const handleViewChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -58,12 +58,20 @@ export function App() {
                 </RadioGroup>
             </FormControl>
 
-
             {players?.length > 0 && (
                 <div style={{width: '100%', display: 'flex', flexWrap: 'wrap'}}>
-                    {view === "Group Matches" ?
-                        groups.map(group => <GroupStandings key={group} group={group} results={results} players={players}/>)
-                        : <ScheduleTable results={results} players={players}/>}
+                    {view === "Playoffs" && (
+                        <PlayoffMatches results={results} players={players}/>
+                    )}
+
+                    {view === "Group Matches" && (
+                        groups.map(group => <GroupMatches key={group} group={group} results={results}
+                                                          players={players}/>)
+                    )}
+
+                    {view === "Schedule" && (
+                        <ScheduleTable results={results} players={players}/>
+                    )}
                 </div>
             )}
         </>

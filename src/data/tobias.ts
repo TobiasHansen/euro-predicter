@@ -381,7 +381,7 @@ export const tobiasPredictions: Player = {
     }, {
         "id": 48,
         "time": "2021-07-03T19:00:00.000Z",
-        "type": "Quater final",
+        "type": "Quarter final",
         "homeTeam": "Spania",
         "homeScore": 0,
         "awayScore": 1,
@@ -389,7 +389,7 @@ export const tobiasPredictions: Player = {
     }, {
         "id": 47,
         "time": "2021-07-03T16:00:00.000Z",
-        "type": "Quater final",
+        "type": "Quarter final",
         "homeTeam": "Tsjekkia",
         "homeScore": 1,
         "awayScore": 0,
@@ -397,7 +397,7 @@ export const tobiasPredictions: Player = {
     }, {
         "id": 46,
         "time": "2021-07-02T19:00:00.000Z",
-        "type": "Quater final",
+        "type": "Quarter final",
         "homeTeam": "Belgia",
         "homeScore": 0,
         "awayScore": 1,
@@ -405,7 +405,7 @@ export const tobiasPredictions: Player = {
     }, {
         "id": 45,
         "time": "2021-07-02T16:00:00.000Z",
-        "type": "Quater final",
+        "type": "Quarter final",
         "homeTeam": "Frankrike",
         "homeScore": 1,
         "awayScore": 0,
