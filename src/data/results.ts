@@ -37,16 +37,16 @@ export const results: Game[] = [{
     "time": "2021-06-20T16:00:00.000Z",
     "type": "Group A",
     "homeTeam": "Sveits",
-    "homeScore": "-",
-    "awayScore": "-",
+    "homeScore": 3,
+    "awayScore": 1,
     "awayTeam": "Tyrkia"
 }, {
     "id": 6,
     "time": "2021-06-20T16:00:00.000Z",
     "type": "Group A",
     "homeTeam": "Italia",
-    "homeScore": "-",
-    "awayScore": "-",
+    "homeScore": 1,
+    "awayScore": 0,
     "awayTeam": "Wales"
 }, {
     "id": 7,
@@ -85,16 +85,16 @@ export const results: Game[] = [{
     "time": "2021-06-21T19:00:00.000Z",
     "type": "Group B",
     "homeTeam": "Russland",
-    "homeScore": "-",
-    "awayScore": "-",
+    "homeScore": 1,
+    "awayScore": 4,
     "awayTeam": "Danmark"
 }, {
     "id": 12,
     "time": "2021-06-21T19:00:00.000Z",
     "type": "Group B",
     "homeTeam": "Finland",
-    "homeScore": "-",
-    "awayScore": "-",
+    "homeScore": 0,
+    "awayScore": 2,
     "awayTeam": "Belgia"
 }, {
     "id": 13,
@@ -133,16 +133,16 @@ export const results: Game[] = [{
     "time": "2021-06-21T16:00:00.000Z",
     "type": "Group C",
     "homeTeam": "Nord-Makedonia",
-    "homeScore": "-",
-    "awayScore": "-",
+    "homeScore": 0,
+    "awayScore": 3,
     "awayTeam": "Nederland"
 }, {
     "id": 18,
     "time": "2021-06-21T16:00:00.000Z",
     "type": "Group C",
     "homeTeam": "Ukraina",
-    "homeScore": "-",
-    "awayScore": "-",
+    "homeScore": 0,
+    "awayScore": 1,
     "awayTeam": "Østerrike"
 }, {
     "id": 19,
@@ -181,16 +181,16 @@ export const results: Game[] = [{
     "time": "2021-06-22T19:00:00.000Z",
     "type": "Group D",
     "homeTeam": "Kroatia",
-    "homeScore": "-",
-    "awayScore": "-",
+    "homeScore": 3,
+    "awayScore": 1,
     "awayTeam": "Skottland"
 }, {
     "id": 24,
     "time": "2021-06-22T19:00:00.000Z",
     "type": "Group D",
     "homeTeam": "Tsjekkia",
-    "homeScore": "-",
-    "awayScore": "-",
+    "homeScore": 0,
+    "awayScore": 1,
     "awayTeam": "England"
 }, {
     "id": 25,
