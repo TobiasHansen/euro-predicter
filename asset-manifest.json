@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/euro-predicter/static/css/main.49a969e4.chunk.css",
-    "main.js": "/euro-predicter/static/js/main.a4707c7b.chunk.js",
-    "main.js.map": "/euro-predicter/static/js/main.a4707c7b.chunk.js.map",
-    "runtime-main.js": "/euro-predicter/static/js/runtime-main.5b9cf132.js",
-    "runtime-main.js.map": "/euro-predicter/static/js/runtime-main.5b9cf132.js.map",
-    "static/js/2.251a1f59.chunk.js": "/euro-predicter/static/js/2.251a1f59.chunk.js",
-    "static/js/2.251a1f59.chunk.js.map": "/euro-predicter/static/js/2.251a1f59.chunk.js.map",
-    "static/js/3.4c3c90b5.chunk.js": "/euro-predicter/static/js/3.4c3c90b5.chunk.js",
-    "static/js/3.4c3c90b5.chunk.js.map": "/euro-predicter/static/js/3.4c3c90b5.chunk.js.map",
+    "main.css": "/euro-predicter/static/css/main.d6e15d5e.chunk.css",
+    "main.js": "/euro-predicter/static/js/main.9c737ddb.chunk.js",
+    "main.js.map": "/euro-predicter/static/js/main.9c737ddb.chunk.js.map",
+    "runtime-main.js": "/euro-predicter/static/js/runtime-main.12ff4c5f.js",
+    "runtime-main.js.map": "/euro-predicter/static/js/runtime-main.12ff4c5f.js.map",
+    "static/js/2.6d2cc28a.chunk.js": "/euro-predicter/static/js/2.6d2cc28a.chunk.js",
+    "static/js/2.6d2cc28a.chunk.js.map": "/euro-predicter/static/js/2.6d2cc28a.chunk.js.map",
+    "static/js/3.504dfc63.chunk.js": "/euro-predicter/static/js/3.504dfc63.chunk.js",
+    "static/js/3.504dfc63.chunk.js.map": "/euro-predicter/static/js/3.504dfc63.chunk.js.map",
     "index.html": "/euro-predicter/index.html",
-    "static/css/main.49a969e4.chunk.css.map": "/euro-predicter/static/css/main.49a969e4.chunk.css.map",
-    "static/js/2.251a1f59.chunk.js.LICENSE.txt": "/euro-predicter/static/js/2.251a1f59.chunk.js.LICENSE.txt"
+    "static/css/main.d6e15d5e.chunk.css.map": "/euro-predicter/static/css/main.d6e15d5e.chunk.css.map",
+    "static/js/2.6d2cc28a.chunk.js.LICENSE.txt": "/euro-predicter/static/js/2.6d2cc28a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b9cf132.js",
-    "static/js/2.251a1f59.chunk.js",
-    "static/css/main.49a969e4.chunk.css",
-    "static/js/main.a4707c7b.chunk.js"
+    "static/js/runtime-main.12ff4c5f.js",
+    "static/js/2.6d2cc28a.chunk.js",
+    "static/css/main.d6e15d5e.chunk.css",
+    "static/js/main.9c737ddb.chunk.js"
   ]
 }
