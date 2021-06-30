@@ -1,4 +1,4 @@
-import React, {ReactNode} from "react";
+import React from "react";
 import {Game, Player} from "../App";
 import {Paper} from "@material-ui/core";
 import MaterialTable from "@material-table/core";

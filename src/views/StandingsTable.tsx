@@ -8,6 +8,8 @@ export function StandingsTable({results, players}: { results: Game[], players: P
     const finishedGames = results.filter(res => res.awayScore !== '-');
     const sixteenthTeams: string[] = results.filter(game => game.type === "Round of 16")
         .reduce((acc: string[], curr) => [...acc, curr.homeTeam, curr.awayTeam], [])
+    const quarterFinalTeams: string[] = results.filter(game => game.type === "Quarter final")
+        .reduce((acc: string[], curr) => [...acc, curr.homeTeam, curr.awayTeam], [])
 
     const playerScores = players.map(player => {
         let score = 0;
@@ -16,6 +18,10 @@ export function StandingsTable({results, players}: { results: Game[], players: P
         let sixteenth = player.predictions.filter(game => game.type === "Round of 16")
             .reduce((acc: string[], curr) => [...acc, curr.homeTeam, curr.awayTeam], [])
             .filter(team => sixteenthTeams.includes(team))
+            .length
+        let quarter = player.predictions.filter(game => game.type === "Quarter final")
+            .reduce((acc: string[], curr) => [...acc, curr.homeTeam, curr.awayTeam], [])
+            .filter(team => quarterFinalTeams.includes(team))
             .length
 
         player.predictions.forEach(prediction => {
@@ -33,11 +39,12 @@ export function StandingsTable({results, players}: { results: Game[], players: P
 
         return {
             name: player.name,
+            quarter,
             sixteenth,
             score,
             winner,
             wrong,
-            points: score*3 + winner*2 + sixteenth*3,
+            points: score*3 + winner*2 + sixteenth*3 + quarter*4,
         }
     })
     return (
@@ -45,7 +52,8 @@ export function StandingsTable({results, players}: { results: Game[], players: P
             <MaterialTable
                 columns={[
                     {title: 'Navn', field: 'name', width: '70px'},
-                    {title: '1/16', field: 'sixteenth', width: '70px'},
+                    {title: '1/4', field: 'quarter', width: '70px'},
+                    {title: '1/8', field: 'sixteenth', width: '70px'},
                     {title: 'Riktig resultat', field: 'score', width: '70px'},
                     {title: 'Riktig vinner', field: 'winner', width: '70px'},
                     {title: 'Bom', field: 'wrong', width: '70px'},
