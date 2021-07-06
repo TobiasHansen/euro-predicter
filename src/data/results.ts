@@ -388,18 +388,18 @@ export const results: Game[] = [{
     "id": 49,
     "time": "2021-07-06T19:00:00.000Z",
     "type": "Semi final",
-    "homeTeam": "",
+    "homeTeam": "Italia",
     "homeScore": "-",
     "awayScore": "-",
-    "awayTeam": ""
+    "awayTeam": "Spania"
 }, {
     "id": 50,
     "time": "2021-07-07T19:00:00.000Z",
     "type": "Semi final",
-    "homeTeam": "",
+    "homeTeam": "England",
     "homeScore": "-",
     "awayScore": "-",
-    "awayTeam": ""
+    "awayTeam": "Danmark"
 }, {
     "id": 51,
     "time": "2021-07-11T19:00:00.000Z",
