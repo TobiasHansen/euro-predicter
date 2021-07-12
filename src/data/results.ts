@@ -404,8 +404,8 @@ export const results: Game[] = [{
     "id": 51,
     "time": "2021-07-11T19:00:00.000Z",
     "type": "Final",
-    "homeTeam": "",
+    "homeTeam": "Italia",
     "homeScore": "-",
     "awayScore": "-",
-    "awayTeam": ""
+    "awayTeam": "England"
 }].map(r => ({...r, time: new Date(r.time)}) as Game);

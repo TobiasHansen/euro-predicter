@@ -10,7 +10,7 @@ const getExtraPointsForPlayer = (player: string): number => {
         ra: 0,
         yngve: 0,
         tobias: 0,
-        wilberg: 0
+        wilberg: 8
     }
 
     // @ts-ignore

@@ -2,7 +2,7 @@
   "name": "euro-predicter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tobiashansen.github.io/euro-predicter",
+"homepage": "http://tobiashansen.github.io/euro-predicter",
   "dependencies": {
     "@material-table/core": "^3.0.6",
     "@material-ui/core": "^4.11.4",
